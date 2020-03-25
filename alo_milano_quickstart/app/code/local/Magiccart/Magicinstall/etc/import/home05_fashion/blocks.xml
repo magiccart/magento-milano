@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_block>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Footer Links Company]]></title>
+      <identifier><![CDATA[footer_links_company]]></identifier>
+      <content><![CDATA[<div class="links">
+<div class="block-title"><strong><span>Company</span></strong></div>
+<ul>
+<li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+<li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+<li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+<li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+<li><a href="#">Accessibility</a></li>
+<li><a href="#">Store Directory</a></li>
+</ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_footer_top]]></title>
+      <identifier><![CDATA[block_footer_top]]></identifier>
+      <content><![CDATA[<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<h2 class="logo-text">milano fashion.</h2>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<ul class="list-inline">
+<li><a class="social-link twitter" href="#"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+<li><a class="social-link google-plus" href="#"><i class="fa fa-google-plus"><span class="hidden">google-plus</span></i></a></li>
+<li><a class="social-link facebook" href="#"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+<li><a class="social-link tumblr" href="#"><i class="fa fa-tumblr"><span class="hidden">tumblr</span></i></a></li>
+<li><a class="social-link pinterest" href="#"><i class="fa fa-pinterest"><span class="hidden">pinterest</span></i></a></li>
+</ul>
+</div>
+<div class="col-md-6 col-sm-12 col-xs-12 clearboth">
+<div class="collapsible mobile-collapsible">
+<div class="block-newletter">{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_footer_bottom]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">about</h3>
+<div class="block1 block-content-statick">
+<ul>
+<li class="feature-icon first">
+<p class="no-margin"><span>Add</span>,262 Milacina Mrest Street Behansed, Paris France</p>
+</li>
+<li class="feature-icon">
+<p><span>Tel</span>.+84 912. 345. 678</p>
+</li>
+<li class="feature-icon">
+<p><span>Email</span>.suport@alothemes.com</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Userful Links</h3>
+<div class="block-content block-content-statick">
+<ul class="bullet">
+<li><a href="#">Help</a></li>
+<li><a href="#">Gift Cards</a></li>
+<li><a href="#">Order Status</a></li>
+<li><a href="#">Free Shipping</a></li>
+<li><a href="#">Returns &amp; Exchanges</a></li>
+<li><a href="#">International</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Customer Care</h3>
+<div class="block-content block-content-statick">
+<ul class="bullet">
+<li><a href="#">About Us</a></li>
+<li><a href="#">Jobs</a></li>
+<li><a href="#">Affiliates</a></li>
+<li><a href="#">Meet The Maker</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Customer Care</h3>
+<div class="block-content block-content-statick">
+<ul class="bullet">
+<li><a href="#">Security</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Text Messaging</a></li>
+<li><a href="#">Legal</a></li>
+<li><a href="#">Supply chain</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Img Mega]]></title>
+      <identifier><![CDATA[img-mega]]></identifier>
+      <content><![CDATA[<div><img src="{{media url="wysiwyg/alothemes/static/img-mega.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[category_product_left]]></title>
+      <identifier><![CDATA[category_product_left]]></identifier>
+      <content><![CDATA[<div><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/block-cate.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Map Contacts]]></title>
+      <identifier><![CDATA[block_map_contacts]]></identifier>
+      <content><![CDATA[<div><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8277911385558!2d-0.13108129999999998!3d51.51637529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d183f5ea3%3A0x8e1c5b00f1b16579!2zMTIgT3hmb3JkIFN0LCBTb2hvLCBMb25kb24gVzFELCBWxrDGoW5nIFF14buRYyBBbmg!5e0!3m2!1svi!2s!4v1434261501432" height="350" width="600"></iframe></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+  </blocks>
+</root>

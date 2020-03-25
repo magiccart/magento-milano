@@ -1,0 +1,42 @@
+<?php
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: Magiccart<team.magiccart@gmail.com>
+ * @@Create Date: 2014-07-18 20:49:45
+ * @@Modify Date: 2016-03-17 15:39:58
+ * @@Function:
+ */
+?>
+<?php
+$helper = Mage::helper('magicsocial');
+if(!$helper->getGeneralCfg('enabled')) return;
+$socialnetwork = $this->getData('socialnetwork');
+$socialCfg  = Mage::getStoreConfig("magicsocial/$socialnetwork");
+$socials    = array('instagram', 'pinterest', 'flickr', 'picasa');
+$selector   = $socialnetwork . '-feed';
+$username   = isset($socialCfg["username"]) ? $socialCfg["username"] : '';
+if(!$username) return;
+$accessToken   = isset($socialCfg["accessToken"]) ? $socialCfg['accessToken'] : '';
+if($accessToken) $accessToken = "accessToken: '$accessToken'";
+$limit      = isset($socialCfg["limit"])    ? $socialCfg["limit"] : 10;
+?>
+<article class="social-feed clearfix <?php echo $selector ?>">
+    <section class="section-title">
+        <h4><?php echo $socialnetwork ?></h4>
+        <!--<h4>Follow us on instagram</h4>-->
+    </section>
+</article>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $('.<?php echo $selector?>').socialstream({
+            socialnetwork: '<?php echo $socialnetwork?>',
+            limit: <?php echo $limit ?>,
+            username: '<?php echo $username ?>',
+			<?php echo $accessToken ?>
+        })      
+    }); 
+</script>

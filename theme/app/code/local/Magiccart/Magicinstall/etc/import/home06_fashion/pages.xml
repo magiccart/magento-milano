@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<root>
+  <pages>
+    <cms_block>
+      <title><![CDATA[404 Not Found 1]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[no-route]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-not-found">
+<div class="page-title">
+<h1><span class="404-title">404</span></h1>
+</div>
+<h2>OOPS! PAGE NOT FOUND</h2>
+<h3>Sorry, but the page you are looking for is not found. Please, make sure </h3>
+<h3>you have typed the current URL.</h3>
+<a class="previus-page" href="{{store url=""}}">Back to Previus Page</a></div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[About Us]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[about-magento-demo-store]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-title">
+<h1>About Magento Store</h1>
+</div>
+<div class="col3-set">
+<div class="col-1">
+<p style="line-height: 1.2em;"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.</small></p>
+<p style="color: #888; font: 1.2em/1.4em georgia, serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta.</p>
+</div>
+<div class="col-2">
+<p><strong style="color: #de036f;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.</strong></p>
+<p>Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</p>
+<p>Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus. Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi. Vestibulum sapien dolor, aliquet nec, porta ac, malesuada a, libero. Praesent feugiat purus eget est. Nulla facilisi. Vestibulum tincidunt sapien eu velit. Mauris purus. Maecenas eget mauris eu orci accumsan feugiat. Pellentesque eget velit. Nunc tincidunt.</p>
+</div>
+<div class="col-3">
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper</p>
+<p><strong style="color: #de036f;">Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus.</strong></p>
+<p>Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi.</p>
+<div class="divider">&nbsp;</div>
+<p>To all of you, from all of us at Magento Store - Thank you and Happy eCommerce!</p>
+<p style="line-height: 1.2em;"><strong style="font: italic 2em Georgia, serif;">John Doe</strong><br /> <small>Some important guy</small></p>
+</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Customer Service]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[customer-service]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-title">
+<h1>Customer Service</h1>
+</div>
+<ul class="disc">
+<li><a href="#answer1">Shipping &amp; Delivery</a></li>
+<li><a href="#answer2">Privacy &amp; Security</a></li>
+<li><a href="#answer3">Returns &amp; Replacements</a></li>
+<li><a href="#answer4">Ordering</a></li>
+<li><a href="#answer5">Payment, Pricing &amp; Promotions</a></li>
+<li><a href="#answer6">Viewing Orders</a></li>
+<li><a href="#answer7">Updating Account Information</a></li>
+</ul>
+<dl><dt id="answer1">Shipping &amp; Delivery</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd><dt id="answer2">Privacy &amp; Security</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd><dt id="answer3">Returns &amp; Replacements</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd><dt id="answer4">Ordering</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd><dt id="answer5">Payment, Pricing &amp; Promotions</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd><dt id="answer6">Viewing Orders</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd><dt id="answer7">Updating Account Information</dt><dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd></dl>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Milano Magento Theme Home 06]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[milano_home06]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="row1 clearfix">
+<div class="block-content-01">
+<div class="slide size1of8">
+<div>{{widget type="magicslider/widget_slide" identifier="home_06" template="magiccart/magicslider/magicslider.phtml"}}</div>
+</div>
+<div class="banner1 banner-inner size1of4">
+<div class="banner-inner-content">
+<div class="column column-1-1"><a href="#"><img class="img-responsive" alt="Banner" src="{{media url="wysiwyg/alothemes/static/HomeV6_01.jpg"}}" /> </a>
+<div class="box-text box-text-possion">
+<h4>sep,2015</h4>
+<h3>winter</h3>
+<h3>style</h3>
+</div>
+</div>
+</div>
+<div class="banner-inner-content">
+<div class="column column-1-2"><a href="#"><img class="img-responsive" alt="Banner" src="{{media url="wysiwyg/alothemes/static/HomeV6_02.jpg"}}" /> </a>
+<div class="box-text box-text-possion">
+<h4>street</h4>
+<h3>colection</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="policy">
+<div class="container-normal">
+<div class="support-policy">
+<div class="support-footer-inner row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="row-normal clearfix">
+<div class="col-icon">
+<div class="support-icon square-round"><i class="icon-plane icons"><span class="hidden">hidden</span></i></div>
+</div>
+<div class="col-text">
+<div class="support-info">
+<div class="info-title">FREE SHIPPING WORLDWIDE</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="row-normal clearfix">
+<div class="col-icon">
+<div class="support-icon square-round"><i class="icon-earphones-alt icons"><span class="hidden">hidden</span></i></div>
+</div>
+<div class="col-text">
+<div class="support-info">
+<div class="info-title">24/7 CUSTOMER SERVICE</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="row-normal clearfix">
+<div class="col-icon">
+<div class="support-icon square-round"><i class="icon-users icons"><span class="hidden">hidden</span></i></div>
+</div>
+<div class="col-text">
+<div class="support-info">
+<div class="info-title">Member Discount</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row2 clearfix">
+<div class="pa-lines container-nor">
+<div class="banner2 banner-inner">
+<div class="banner1-1">
+<div class="banner-inner-big size1of8">
+<div class="banner-inner-content size1of8">
+<div class="column-normal column-1-1"><a href="#"><img class="img-responsive" alt="Banner" src="{{media url="wysiwyg/alothemes/static/HomeV6_03.jpg"}}" /> </a>
+<div class="box-text box-text-possion box-text-possion-left">
+<h2>realman</h2>
+<h4>Collection</h4>
+</div>
+</div>
+</div>
+<div class="banner-inner-content mr-0 size1of4">
+<div class="column-normal column-1-1"><a href="#"><img class="img-responsive" alt="Banner" src="{{media url="wysiwyg/alothemes/static/HomeV6_04.jpg"}}" /> </a>
+<div class="box-text box-text-possion">
+<h4>special</h4>
+<h3>save up to</h3>
+<h3><strong>35%</strong> off</h3>
+</div>
+</div>
+</div>
+<div class="banner-inner-content size1of4 text-center">
+<div class="column-normal column-1-1"><a href="#"><img class="img-responsive" alt="Banner" src="{{media url="wysiwyg/alothemes/static/HomeV6_05.jpg"}}" /> </a>
+<div class="box-text box-text-possion">
+<h4>new</h4>
+<h3>watch</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="banner-inner-mall size1of4">
+<div class="banner-inner-content">
+<div class="column column-1-2"><a href="#"><img class="img-responsive" alt="Banner" src="{{media url="wysiwyg/alothemes/static/HomeV6_06.jpg"}}" /> </a>
+<div class="box-text box-text-possion">
+<h3>men Shoes</h3>
+<h4>collection</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="alo-brands">{{widget type="magicbrand/widget_brand" template="magiccart/magicbrand/magicbrand.phtml"}}</div>
+<div class="alo-blog">{{widget type="blog/slide" title="Latest Blog" categories="1,2,3" blocks_count="5" slide="1" controls="1" speed="800" pause="1" row="1" portrait="1" landscape="1" tablet="1" desktop="2" visibleItems="2" marginColumn="30" widthImages="570" heightImages="570"}}</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+  </pages>
+</root>

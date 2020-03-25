@@ -1,0 +1,70 @@
+﻿
+1. 09/11/2015
+
+    path file(link): skin/frontend/alomilano/default and(home03_fashion,home05_fashion,home06_fashion,home07_fashion)/magiccart/magicmenu/css/magicmenu.css
+                     http://snag.gy/iY19l.jpg
+ 
+ # Upgrade fix bug  Alo Milano
+	1 Fix logo max-width 
+		path file(link): skin/frontend/alomilano/default and(home02_fashion,home03_fashion,home04_fashion,home05_fashion,home06_fashion,home07_fashion)/css/styles.css
+						 http://snag.gy/ZkStU.jpg
+ 
+ 
+2. 12/04/2015
+
+	Fix bug from_key in register 1.9.2.2 => remove folder: app\design\frontend\alomilano\default\template\persistent
+	add feature auto close quickview after add cart => file change: js\magiccart\ajaxcart.js
+
+ 
+3. 12/01/2016
+ 	Upgrade fix bug add to cart for category mode list Alo Milano
+    path file : skin/frontend/alomilano/default and(home02_fashion,home03_fashion,home04_fashion,home05_fashion,home06_fashion,home07_fashion,home09_food)/css/styles.css
+    add style to bottom: .toolbar-bottom{clear: both;}
+	
+4. 01/03/2016
+	Fix bug blank page forgot password
+	File changed:
+	app\design\frontend\alomilano\default\layout\customer.xml
+	app\design\frontend\alomilano\default\layout\configurableswatches.xml
+
+5. 17/03/2016
+	Changed:
+	Upgrade quicstart to magento-1.9.2.4
+	Add 2 new demo home08_fashion and home09_food
+
+
+6. 28/09/2016
+	Update ajaxcart quickview
+	file changed:
+	js\magiccart\ajaxcart.js
+	js\magiccart\quickview.js
+
+
+7. 20/10/2016
+	Update compatible magento 1.9.3.0
+	file changed:
+	app\code\local\Magiccart\Magicslider\controllers\Adminhtml\MagicsliderController.php
+	app\code\local\Magiccart\Magicslider\Block\Adminhtml\Magicslider\Edit\Tab\Gallery.php
+
+
+8. 04/25/2017 
+	a. Fix product option 1.9.3.x
+		file changed:
+		js/magiccart/ajaxcart.js
+		js/magiccart/plugin/jquery.fancybox.pack.js
+		app/design/frontend/alomilano/default/layout/magiccart/alothemes.xml
+
+
+	b. Update fixed API instagram:
+		file changed:
+		js/magiccart/plugin/jquery.socialstream.js
+		app/code/local/Magiccart/Magicsocial/etc/system.xml
+		app/code/local/Magiccart/Magicsocial/etc/config.xml
+		app/design/frontend/alobencher/default/template/magiccart/magicsocial/socialstream.phtml
+  
+  
+ 
+
+  
+   
+	
